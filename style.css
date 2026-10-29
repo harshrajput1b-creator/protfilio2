@@ -1,0 +1,171 @@
+/* ---------- Reset & base ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* ---------- Header ---------- */
+header {
+  background: #1e4ba8;
+  color: #fff;
+  text-align: center;
+  padding: 12px 0 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Sections ---------- */
+section {
+  padding: 25px 20px 40px;
+  text-align: center;
+  border-bottom: 2px solid #bbb;
+  scroll-margin-top: 70px;
+}
+
+section h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 0.85rem;
+}
+
+/* ---------- About ---------- */
+.avatar {
+  display: block;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto 20px;
+}
+
+/* ---------- Skills table ---------- */
+.skills-table {
+  width: 50%;
+  min-width: 300px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.skills-table th,
+.skills-table td {
+  border: 1px solid #1e4ba8;
+  padding: 8px;
+  font-size: 0.85rem;
+}
+
+.skills-table th {
+  background: #1e4ba8;
+  color: #fff;
+}
+
+/* ---------- Project cards ---------- */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 52%;
+  min-width: 300px;
+  margin: 0 auto 12px;
+  padding: 25px 15px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+
+/* ---------- Contact form ---------- */
+.contact-table {
+  width: 50%;
+  min-width: 320px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.contact-table td {
+  border: 1px solid #1e4ba8;
+  padding: 6px 8px;
+  font-size: 0.85rem;
+}
+
+.contact-table td:first-child {
+  width: 30%;
+}
+
+.contact-table input,
+.contact-table textarea {
+  width: 90%;
+  padding: 4px 6px;
+  border: 1px solid #444;
+  font-size: 0.75rem;
+}
+
+.contact-table button {
+  background: #1e4ba8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 0;
+  width: 200px;
+  font-family: inherit;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-table button:hover {
+  background: #163a85;
+}
+
+/* ---------- Footer & Back to top ---------- */
+footer {
+  background: #1e4ba8;
+  height: 10px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #1e4ba8;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 4px;
+}
+
+.back-to-top:hover {
+  background: #163a85;
+}

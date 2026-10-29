@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- Header / Navigation -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <svg class="avatar" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile picture">
+      <defs>
+        <clipPath id="circle"><circle cx="100" cy="100" r="100"/></clipPath>
+      </defs>
+      <circle cx="100" cy="100" r="100" fill="#d0e1fb"/>
+      <g clip-path="url(#circle)">
+        <path d="M120 0 C190 20 200 160 150 200 L200 200 L200 0 Z" fill="#c0d6f6"/>
+        <path d="M25 200 C25 150 60 135 100 135 C140 135 175 150 175 200 Z" fill="#5a7fa8"/>
+        <rect x="87" y="108" width="26" height="32" fill="#f6d5c4"/>
+        <polygon points="84,135 116,135 100,178" fill="#eaf4fd"/>
+        <polygon points="84,135 100,178 72,200 58,160" fill="#3f5f80"/>
+        <polygon points="116,135 100,178 128,200 142,160" fill="#3f5f80"/>
+        <polygon points="94,150 106,150 111,166 100,200 89,166" fill="#d47c80"/>
+        <ellipse cx="100" cy="85" rx="28" ry="34" fill="#f8d9c9"/>
+        <path d="M70 82 C62 45 80 36 102 38 C128 38 138 52 130 82 C126 66 116 58 100 58 C86 58 76 66 70 82 Z" fill="#3e5f80"/>
+      </g>
+    </svg>
+    <p>Hello! My name is Harsh Tanwar. I am learning web development and this is my first portfolio website.</p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <th>Skill</th>
+        <th>Level</th>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Beginner</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>Learning</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="card">
+      <h3>Project 1</h3>
+      <p>A simple HTML &amp; CSS webpage.</p>
+    </div>
+    <div class="card">
+      <h3>Project 2</h3>
+      <p>Another awesome mini project.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="alert('Thanks! Your message has been sent.'); return false;">
+      <table class="contact-table">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" placeholder="Enter your email" required></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" rows="2" placeholder="Write your message" required></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Send</button></td>
+        </tr>
+      </table>
+    </form>
+  </section>
+
+  <footer></footer>
+
+  <a href="#top" class="back-to-top">&#8593; Back to Top</a>
+
+</body>
+</html>
